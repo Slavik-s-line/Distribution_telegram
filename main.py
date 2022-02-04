@@ -11,7 +11,7 @@ client.start()
 async def main():
     while True:  # запускаем бесконечный цикл для рассылки
         try:
-            chats = open('chat_list.txt')  # открываем файл. Предполагается, что каждый id чата написан в новой строчке
+            chats = open('chat_list.txt')  # открываем файл. Предполагается, что каждый id чата написан в новой строке
         except:
             print("Failed to open file")
         for line in chats:  # проходим каждый id в файле
