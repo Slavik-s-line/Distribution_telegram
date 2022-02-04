@@ -19,7 +19,7 @@ async def main():
                 print("Id {} have error".format(line))
                 pass
         chats.close()  # закрываем текстовый файл
-        await asyncio.sleep(5)  # делаем паузу в рассылке в 3600 сек. что равняется 1 час.
+        await asyncio.sleep(3600)  # делаем паузу в рассылке в 3600 сек. что равняется 1 час.
 
 
 with client:
